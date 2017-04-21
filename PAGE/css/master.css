@@ -1,0 +1,315 @@
+html,body{
+  margin:0;
+  padding:0;
+  background: #eee;
+
+
+}
+.main{
+  height: auto;
+
+
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+.nav_bar ul{
+  margin:0;
+  padding:0;
+  background-color: #191919;
+
+}
+.nav_bar ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.nav_bar li{
+  list-style-type: none;
+}
+.nav_bar a{
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+.nav_bar input{
+  float: right;
+  padding: 10px 14px;
+  margin-top: 5px;
+  border-radius:10px;
+  width: 200px;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+.side_navbar{
+  width:15%;
+  background: #3d3d3d;
+  position: relative;
+  min-height: 500px;
+  padding:0px  10px;
+
+}
+
+.side_navbar .top{
+  margin-left:33%;
+}
+.side_navbar .top-right{
+  position: absolute;
+  margin: 3% 5% 5% 5% ;
+  padding: 3%;
+  right:1px;
+  color: #6f6f6f;
+  background: #262627;
+}
+.side_navbar ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+.side_navbar ul li a{
+  display: block;
+  padding:12px 10%;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px  black;
+}
+
+#add_sidenav{
+  border-top: 1px solid black;
+  border-bottom: 0px solid black;
+}
+
+body > div > div.side_navbar > ul > li:nth-child(1) > a:hover{
+  cursor:default;
+
+}
+/*.active{
+  background-color: rgb(48, 151, 209);
+  color: #eee;
+  text-decoration: none;
+}
+.active-a{
+  background-color: rgba(48, 151, 209,0.7);
+  color: #eee;
+  text-decoration: none;
+}*/
+.side_navbar a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #eee;
+  text-decoration: none;
+}
+body > div > div.side_navbar > ul > li:nth-child(1) > a:hover{
+  background: #3d3d3d;
+
+}
+/*.side_navbar a:focus{
+  background-color: rgb(48, 151, 209);
+  color: #eee;
+  text-decoration: none;
+}*/
+body > div > div.side_navbar > ul > li:nth-child(1) > a:focus{
+    background: #3d3d3d;
+}
+/*.side_navbar a:focus span{
+color: white;
+}*/
+.active{
+  color: white;
+}
+.side_navbar ul li ul li a{
+  padding-left:40px;
+  border-bottom:0px ;
+  color: white;
+
+}
+.normal{
+  z-index: 50;
+}
+.center{
+  margin: 0 40%;
+}
+.name a{
+  border-radius: 0px !important;
+  box-shadow: 0px 0px black !important;
+  width:50%;
+  margin-left: 20%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-left: 1px solid black;
+}
+body > div > div.side_navbar > ul > li > ul > li > a{
+  color: black;
+}
+.hide{
+  display: none;
+}
+.animatey {
+    animation: animat .5s;
+}
+@keyframes animat {
+    from {transform: translateY(-30px);}
+    to {transform: translateY(0px);}
+}
+.animatex {
+    animation: animates .5s;
+}
+@keyframes animates {
+    from {transform: translateX(-30px);}
+    to {transform: translateX(0px);}
+}
+.main_area{
+  height: 500px;
+  width: 83%;
+  margin-top:10px;
+  float: left;
+}
+.mid{
+  float: left;
+  height: 500px;
+  width: 75%;
+  background:white;
+  margin: 0 2%;
+  border-radius: 5px;
+
+}
+.right{
+  float: left;
+  height: 500px;
+  background: white;
+  width: 20%;
+}
+.right img{
+  border-radius: 100%;
+  margin: 10px 10px;
+  width: 90%;
+
+}
+span {
+  color: #9f9f9f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+}
+hr{
+  margin: 0;
+  width: 90%;
+}
+.login{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.login_content{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 5px;
+  z-index: 2;
+}
+.animate {
+    animation: animatezoom 0.8s
+}
+@keyframes animatezoom {
+    from {transform: scale(0.5)}
+    to {transform: scale(1)}
+}
+
+input{
+  margin: 2px auto;
+
+}
+input[name=username],input[name=password]{
+  width: 96%;
+  margin: 5px 2%;
+  padding: 12px 12px;
+  box-sizing: border-box;
+
+}
+
+input[name=login]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 0px;;
+  margin: 8px 2%; ;
+  border: none;
+  cursor: pointer;
+  width: 96%;
+}
+.login_footer{
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+button{
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 12px;;
+  margin: 8px 2%; ;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  float: left;
+}
+.close{
+  margin:1% 1% 0 93%;
+  padding:0px 2%;
+  cursor:pointer;
+}
+label{
+  margin:0px 2%;
+}
+.login img{
+  margin: 10px 35%;
+  border-radius: 100%;
+  width: 30%;
+}
+.add_back{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.add_sidenav{
+  background-color: #fefefe;
+  margin: 20% auto 15% 15%;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 5px;
+  z-index: 2;
+}
+input[name=Category_name]{
+  width: 96%;
+  margin: 5px 2%;
+  padding: 12px 12px;
+  box-sizing: border-box;
+}
+input[name=add_submit]{
+  background-color: #333;
+  color: white;
+  padding: 10px 12px;;
+  margin: 8px 2%; ;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  float: left;
+}

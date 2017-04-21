@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <div  class="main" >
+      <div id="nav_bar" class="nav_bar" >
+        <ul>
+          <li><a href="#" class="float-left" style="font-size:18px;">THE PAGE</a></li>
+          <!-- float-right elemrmts shouls be entered upside down -->
+          <li><a href="#" class="float-right">Help</a></li>
+          <li><a href="#" class="float-right">Settings</a></li>
+          <li><a href="#" class="float-right">Profile</a></a></li>
+          <li><a href="#" class="float-right">Home</a></a></li>
+          <input type="text" name="search" placeholder="Search... ">
+        </ul>
+      </div>
+      <div class="side_navbar" style="float:left;">
+        <ul id="adda">
+          <li><a class="lo" href="#"><span id="login" class="glyphicon glyphicon-lock top"></span><span class="glyphicon glyphicon-menu-hamburger top-right"></span></a></li>
+          <!-- <li><a href="#" id="login"><span class="glyphicon glyphicon-lock"></span></a></li> -->
+
+          <li id="home" ><a href="#" class="normal"><span class="glyphicon glyphicon-home active"></span> Name </a></li>
+          <li><a href="#" class="dropi"><span class="glyphicon glyphicon-file"></span> Pages </a>
+            <ul class="hide name animatex">
+              <li><a class="hidden-a" href="#"><span class="glyphicon glyphicon-file"></span> Research</a></li>
+              <li><a class="hidden-a"href="#"><span class="glyphicon glyphicon-file"></span> Research</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="dropi"><span class="glyphicon glyphicon-th-list"></span> Categories </a>
+            <ul class="hide name animatex">
+              <li><a class="hidden-a" href="#"><span class="glyphicon glyphicon-folder-open"></span> Python</a></li>
+              <li><a class="hidden-a" href="#"><span class="glyphicon glyphicon-folder-open"></span> Web</a></li>
+              <li><a class="hidden-a" href="#"><span class="glyphicon glyphicon-folder-open"></span> Linux</a></li>
+            </ul>
+          </li>
+            <li id="add"><a href="#" id="add_sidenav"><span class="glyphicon glyphicon-plus center" ></span></a></li>
+        </ul>
+      </div>
+
+      <div class="main_area">
+        <div class="mid">
+
+
+        </div>
+        <div class="right">
+          <img src="media/profile.png" alt=""><hr>
+
+
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+
+
+      <div  class="login">
+      <div class="login_content animate">
+        <form class="" action="" method="post">
+          <span class="glyphicon glyphicon-remove close"></span>
+          <img src="media/profile.png" alt="">
+          <label for="username">username</label>
+          <input type="text" name="username" value="" placeholder="username">
+          <label for="password">password</label>
+          <input type="password" name="password" value="" placeholder="password">
+          <input type="submit" name="login" value="Login">
+          <div class="login_footer">
+            <button type="button" class="cancel" name="button">cancel</button>
+            <p>Forget<a href="#"> password?</a></p>
+          </div>
+        </form>
+      </div>
+      </div>
+
+      <div class="add_back ">
+        <div class="add_sidenav animatey">
+          <input type="text" id="Category_name"name="Category_name" value="" placeholder="Category name.....">
+          <input type="submit" id="add_submit" name="add_submit" value="Add">
+          <button type="button" class="cancel" name="button">cancel</button>
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    </script>
+  </body>
+</html>
